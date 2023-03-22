@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Sacramento";
+    src: url(../res/Sacramento-Regular.ttf);
+}
+
+.Logo{
+    font-family: 'Sacramento';
+    font-size: 30pt;
+    text-align: center;
+    background-color: #5d008b;
+    color: #ffffff;
+    padding: 15px;
+}
+
+button{
+    font-size: 12pt;
+    border-radius: 24pt;
+    border: 0;
+    padding: 5px;
+    background-color: #eac1ff;
+    color: #194b00;
+}
+
+.Categories {
+    text-align: center;
+
+}
