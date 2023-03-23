@@ -17,11 +17,26 @@ button{
     border-radius: 24pt;
     border: 0;
     padding: 5px;
+    margin: 3px;
     background-color: #eac1ff;
     color: #194b00;
+
+    box-shadow: 5px 5px 19px -6px rgba(0,0,0,0.56);
+}
+
+button[id="Night"],button[id="Land"]{
+    
+}
+
+button[id="Register"],button[id="Login"]{
+    border-radius: 6px;
+    text-align: right;
 }
 
 .Categories {
     text-align: center;
+}
 
+.RightSideBar{
+    text-align: center;
 }
