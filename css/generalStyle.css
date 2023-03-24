@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: Druk-B_I;
+    src: url(../res/Druk-BoldItalic-Trial.otf);
+}
 
 * {box-sizing: border-box;}
 
