@@ -3,8 +3,13 @@
     src: url(../res/Sacramento-Regular.ttf);
 }
 
+@font-face {
+    font-family: "PFD-900";
+    src: url(../res/Playfair/static/PlayfairDisplay-Black.ttf);
+}
+
 .Logo{
-    font-family: 'Sacramento';
+    font-family: 'PFD-900', serif;
     font-size: 30pt;
     text-align: center;
     background-color: #5d008b;
