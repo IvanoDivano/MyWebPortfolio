@@ -4,6 +4,21 @@
     src: url(../res/Druk-BoldItalic-Trial.otf);
 }
 
+@font-face {
+    font-family: "PFD-900";
+    src: url(../res/Playfair/static/PlayfairDisplay-Black.ttf);
+}
+
+@font-face {
+    font-family: "PFD-500";
+    src: url(../res/Playfair/static/PlayfairDisplay-Medium.ttf);
+}
+
+@font-face{
+    font-family: "NOTOS-700";
+    src: url(../res/NotoSerif-Bold.ttf)
+}
+
 * {box-sizing: border-box;}
 
 .col-1 {width: 8.33%;}
