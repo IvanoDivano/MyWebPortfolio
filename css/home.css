@@ -3,15 +3,14 @@
     src: url(../res/Sacramento-Regular.ttf);
 }
 
+body{
+    background-color: whitesmoke;
+}
 
-
-.Logo{
-    font-family: 'PFD-900', serif;
-    font-size: 30pt;
+h1{
+    font-family: 'NOTOS-700', serif;
+    font-size: 64pt;
     text-align: center;
-    background-color: #5d008b;
-    color: #ffffff;
-    padding: 15px;
 }
 
 button{
@@ -33,11 +32,13 @@ button[id="Night"],button[id="Land"]{
 button[id="Register"],button[id="Login"]{
     border-radius: 6px;
     text-align: right;
+    font-family: 'NOTOS-700';
+    font-size: 16pt;
 }
 
-.Categories {
-    text-align: center;
-}
+.Categories { text-align: center; }
+
+h3{ font-family: 'NOTOS-700'; font-size: 16pt;}
 
 .RightSideBar{
     text-align: center;
