@@ -1,46 +1,53 @@
 @font-face {
-    font-family: "Sacramento";
-    src: url(../res/Sacramento-Regular.ttf);
+  font-family: "Sacramento";
+  src: url(../res/Sacramento-Regular.ttf);
 }
 
-body{
-    background-color: whitesmoke
+body {
+  background-color: whitesmoke;
 }
 
 h1{
-    font-family: 'NOTOS-700', serif;
-    font-size: 64pt;
-    text-align: center;
-    margin: 0;
+  font-family: "PFD-I", serif;
+  font-weight: 500;
+  font-size: 64pt;
+  text-align: center;
+  margin: 0;
 }
 
-button{
-    font-size: 12pt;
-    border-radius: 24pt;
-    border: 0;
-    padding: 5px;
-    margin: 3px;
-    background-color: #F5F5DC;
-    color: #697f5e;
+button {
+  font-size: 12pt;
+  border-radius: 24pt;
+  border: 0;
+  padding: 5px;
+  margin: 3px;
+  background-color: #f5f5dc;
+  color: #697f5e;
 
-    box-shadow: 5px 5px 19px -6px rgba(0,0,0,0.56);
+  box-shadow: 5px 5px 19px -6px rgba(0, 0, 0, 0.56);
 }
 
-button[id="Night"],button[id="Land"]{
-    
+button[id="Night"],
+button[id="Land"] {
 }
 
-button[id="Register"],button[id="Login"]{
-    border-radius: 6px;
-    text-align: right;
-    font-family: 'NOTOS-700';
-    font-size: 16pt;
+button[id="Register"],
+button[id="Login"] {
+  border-radius: 6px;
+  text-align: right;
+  font-family: "NOTOS-700";
+  font-size: 16pt;
 }
 
-.Categories { text-align: center; }
+.Categories {
+  text-align: center;
+}
 
-h3{ font-family: 'NOTOS-700'; font-size: 16pt;}
+h3 {
+  font-family: "NOTOS-700";
+  font-size: 16pt;
+}
 
-.RightSideBar{
-    text-align: center;
+.RightSideBar {
+  text-align: center;
 }

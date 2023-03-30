@@ -1,25 +1,41 @@
-
 @font-face {
-    font-family: Druk-B_I;
-    src: url(../res/Druk-BoldItalic-Trial.otf);
-}
-
-@font-face {
-    font-family: "PFD-900";
-    src: url(../res/Playfair/static/PlayfairDisplay-Black.ttf);
+  font-family: Druk-B_I;
+  src: url(../res/Druk-BoldItalic-Trial.otf);
 }
 
 @font-face {
-    font-family: "PFD-500";
-    src: url(../res/Playfair/static/PlayfairDisplay-Medium.ttf);
+    font-family: "PFD";
+    src: url(../res/Playfair.ttf);
 }
 
-@font-face{
-    font-family: "NOTOS-700";
-    src: url(../res/NotoSerif-Bold.ttf)
+@font-face {
+    font-family: "PFD-I";
+    src: url(../res/Playfair-Italic.ttf)
 }
 
-* {box-sizing: border-box;}
+@font-face {
+  font-family: "PFD-I";
+  src: url(../res/Playfair/static/PlayfairDisplay-Italic.ttf);
+}
+
+@font-face {
+  font-family: "PFD-900";
+  src: url(../res/Playfair/static/PlayfairDisplay-Bold.ttf);
+}
+
+@font-face {
+  font-family: "PFD-500";
+  src: url(../res/Playfair/static/PlayfairDisplay-Medium.ttf);
+}
+
+@font-face {
+  font-family: "NOTOS-700";
+  src: url(../res/NotoSerif-Bold.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
 
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -35,15 +51,13 @@
 .col-12 {width: 100%;}
 
 [class*="col-"] {
-    float: left;
-    padding: 15px;
-    border: 1px solid red;
+  float: left;
+  padding: 15px;
+  border: 1px solid red;
 }
 
 .row::after {
-    content: "";
-    clear: both;
-    display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
-
-
